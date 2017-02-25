@@ -1,0 +1,37 @@
+<html>
+<body>
+<script>
+ student = {
+    firstName : "Maisa",
+    lastName  : "Sadirova",
+    age       : 20,
+    speciality  : "informatic"}
+student.points = {
+"js" : 100,
+"oipp" : 100, 
+"stp" : 100
+}
+	
+student1 = {
+	firstName: "Asel",
+	lastName: "SAduakasova"
+}
+var array = []
+array.push(student)
+array.push(student1)
+console.log(student);
+console.log(student.firstName);
+console.log(student.points.js);
+delete student.lastName;
+console.log(student.lastName); 
+student.lastName="Amir";
+console.log(student.lastName);
+	var sum=0;
+for (var key in student.points ){
+sum+=student.points[key]}
+return sum/student.points.length[key] ; 
+}
+</script>
+
+</body>
+</html>
